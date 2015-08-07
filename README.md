@@ -13,7 +13,7 @@ A ideia eh o bower gerar uma pasta libs
 A compilacao do projeto deve ter seu resultado dentro da pasta dist
 
 templates- Essa pasta possuira ao menos 3 templates:
-= docs_template.html: template utilizado pela pagina de documentacao. O processo de build devera importar todos os scripts utilizados para documentacao. Serao colocados dentro do espaco delimitado nesse template.
+- docs_template.html: template utilizado pela pagina de documentacao. O processo de build devera importar todos os scripts utilizados para documentacao. Serao colocados dentro do espaco delimitado nesse template.
 - index_template.htmj: template utilizado pela aplicacao. O processo de build devera importar todos os scripts necessarios. A ideia eh poder importar todos os script isolado, apenas os scripts minificados (simulando producao) e talvez outros (importar os scripts concatenados, mas nao minificados)
 - icons_template.css - template de webfonts modificado pelo teles. Esse cara ira gerar o template de fonts para compilar junto com o sass.
 
@@ -23,7 +23,7 @@ Outra ideia eh verificar a possibilidade de uso do vagrant para configuracao da 
 
 Dentro da pasta ci talvez crie aliases para comandos do git como:
 - qpull
-- qmerge
+- qmerge (forcar o git fetch - pensar se vale a pena verificar se contem o origin/$branch e caso nao tenha fazer merge soh de branch remota)
 - qpush
 - git st
 - git lg
