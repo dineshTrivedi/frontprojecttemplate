@@ -20,3 +20,10 @@ templates- Essa pasta possuira ao menos 3 templates:
 O gruntfile.js deve ser pequeno e suas tasks ficarao dentro da pasta grunt-tasks.
 
 Outra ideia eh verificar a possibilidade de uso do vagrant para configuracao da maquina, instalar todos os pacotes necessarios para o projeto.
+
+Dentro da pasta ci talvez crie aliases para comandos do git como:
+- qpull
+- qmerge
+- qpush
+- git st
+- git lg
